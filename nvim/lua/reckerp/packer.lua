@@ -93,4 +93,7 @@ return require('packer').startup(function(use)
 
  -- christoomey/vim-tmux-navigator
  use("christoomey/vim-tmux-navigator")
+
+ use('vim-test/vim-test')
+
 end)
