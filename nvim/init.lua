@@ -727,9 +727,6 @@ require('lazy').setup {
       -- default behavior. For example, here we disable the section for
       -- cursor information because line numbers are already enabled
       ---@diagnostic disable-next-line: duplicate-set-field
-      statusline.section_location = function()
-        return ''
-      end
 
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
